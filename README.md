@@ -34,7 +34,8 @@ Here's a simplified textual representation of the ER diagram:
 # Example SQL Scripts
 
 # Here are some SQL scripts that I used to create the database tables and establish the relationships:
-Create Students Table
+
+# Create Students Table
 
 CREATE TABLE Students (
     StudentID INT PRIMARY KEY,
@@ -46,7 +47,7 @@ CREATE TABLE Students (
     DateOfMembership DATE
 );
 
-Create Teachers Table
+# Create Teachers Table
 
 CREATE TABLE Teachers (
     TeacherID INT PRIMARY KEY,
@@ -58,7 +59,7 @@ CREATE TABLE Teachers (
     DateOfMembership DATE
 );
 
-Create Books Table
+# Create Books Table
 
 CREATE TABLE Books (
     BookID INT PRIMARY KEY,
@@ -70,7 +71,7 @@ CREATE TABLE Books (
     Category VARCHAR(50)
 );
 
-Create IssuedBooks Table
+# Create IssuedBooks Table
 
 CREATE TABLE IssuedBooks (
     IssueID INT PRIMARY KEY,
