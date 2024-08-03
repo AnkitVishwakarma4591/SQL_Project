@@ -1,5 +1,6 @@
-________________________________________
+_______________________________________________
 # 🚀 SQL Project: Library Management System 📚
+_______________________________________________
 I'm thrilled to share details about my recent SQL project: the development of an online Library Management System. This project is part of my ongoing learning in SQL and database management, and it has been an incredible opportunity to apply theoretical knowledge to a practical scenario.
 # Project Overview
 The Library Management System aims to enhance the efficiency of managing book issuances and returns in a college library. The system is designed to cater to both students and teachers, with distinct return periods for each group. Each book in the library has a unique identifier, even if there are multiple copies of the same book. The system records who issued the book, the duration of the issuance, and any fines that may be applicable.
@@ -15,7 +16,7 @@ The Library Management System aims to enhance the efficiency of managing book is
 	Books: Includes attributes like BookID, Title, Author, ISBN, Publisher, YearPublished, and Category.
 	IssuedBooks: Includes attributes like IssueID, BookID, IssuedToID, IssuedToType, IssueDate, ReturnDate, and FineAmount.
 #	Designing the Database Schema: 
-    	Created a comprehensive ER diagram that maps out the relationships and attributes of each entity.
+    Created a comprehensive ER diagram that maps out the relationships and attributes of each entity.
 #	Establishing Relationships:
 	One-to-Many relationship between Students and IssuedBooks (one student can issue multiple books).
 	One-to-Many relationship between Teachers and IssuedBooks (one teacher can issue multiple books).
