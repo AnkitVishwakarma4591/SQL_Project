@@ -17,7 +17,7 @@ The Library Management System aims to enhance the efficiency of managing book is
 #	Designing the Database Schema: 
     	Created a comprehensive ER diagram that maps out the relationships and attributes of each entity.
 #	Establishing Relationships:
-	**One-to-Many** relationship between Students and IssuedBooks (one student can issue multiple books).
+	One-to-Many relationship between Students and IssuedBooks (one student can issue multiple books).
 	One-to-Many relationship between Teachers and IssuedBooks (one teacher can issue multiple books).
 	One-to-Many relationship between Books and IssuedBooks (one book can be issued multiple times).
 
@@ -34,7 +34,8 @@ Here's a simplified textual representation of the ER diagram:
 # Example SQL Scripts
 
 # Here are some SQL scripts that I used to create the database tables and establish the relationships:
---Create Students Table
+Create Students Table
+
 CREATE TABLE Students (
     StudentID INT PRIMARY KEY,
     FirstName VARCHAR(50),
@@ -44,7 +45,9 @@ CREATE TABLE Students (
     Department VARCHAR(50),
     DateOfMembership DATE
 );
--- Create Teachers Table
+
+Create Teachers Table
+
 CREATE TABLE Teachers (
     TeacherID INT PRIMARY KEY,
     FirstName VARCHAR(50),
@@ -54,7 +57,9 @@ CREATE TABLE Teachers (
     Department VARCHAR(50),
     DateOfMembership DATE
 );
--- Create Books Table
+
+Create Books Table
+
 CREATE TABLE Books (
     BookID INT PRIMARY KEY,
     Title VARCHAR(100),
@@ -64,7 +69,9 @@ CREATE TABLE Books (
     YearPublished YEAR,
     Category VARCHAR(50)
 );
-# Create IssuedBooks Table
+
+Create IssuedBooks Table
+
 CREATE TABLE IssuedBooks (
     IssueID INT PRIMARY KEY,
     BookID INT,
