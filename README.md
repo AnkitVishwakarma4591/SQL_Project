@@ -11,13 +11,13 @@ The Library Management System aims to enhance the efficiency of managing book is
 
 #	Identifying Entities and Attributes:
 	Students: Includes attributes like StudentID, FirstName, LastName, Email, Phone, Department, and DateOfMembership.
-	Teachers: Includes attributes like TeacherID, FirstName, LastName, Email, Phone, Department, and            DateOfMembership.
+	Teachers: Includes attributes like TeacherID, FirstName, LastName, Email, Phone, Department, and DateOfMembership.
 	Books: Includes attributes like BookID, Title, Author, ISBN, Publisher, YearPublished, and Category.
 	IssuedBooks: Includes attributes like IssueID, BookID, IssuedToID, IssuedToType, IssueDate, ReturnDate, and FineAmount.
 #	Designing the Database Schema: 
-    Created a comprehensive ER diagram that maps out the relationships and attributes of each entity.
+    	Created a comprehensive ER diagram that maps out the relationships and attributes of each entity.
 #	Establishing Relationships:
-	One-to-Many relationship between Students and IssuedBooks (one student can issue multiple books).
+	**One-to-Many** relationship between Students and IssuedBooks (one student can issue multiple books).
 	One-to-Many relationship between Teachers and IssuedBooks (one teacher can issue multiple books).
 	One-to-Many relationship between Books and IssuedBooks (one book can be issued multiple times).
 
